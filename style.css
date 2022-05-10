@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+body {
+    background: url(img/ratinho.jpg);           
+    height: 100vh;
+    font-family: 'Koulen', cursive; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content h2 {
+    font-size: 5.5em;
+    margin-bottom: 20px;
+    color: yellow;
+    background: blue;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+
+.buttons .box {
+    box-shadow: 5px 5px 15px 5px #000000;
+
+}
+
+.buttons .box:hover {
+    background: blue;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: yellow;
+}
+
